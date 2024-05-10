@@ -68,7 +68,9 @@ python3 app/app.py
 - **requirements.txt**: List of Python dependencies required for the application.
 
 ## Supporting Pages GitHub Repo Link:
-Health Statistics GitHub Repo: https://github.com/ssandeed/ilab-health-stats
-Our Team Page GitHub Repo: https://github.com/ssandeed/ilab-team
 
-Feel free to explore the repository and modify the code to fit your needs! If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
+1. Health Statistics GitHub Repo: https://github.com/ssandeed/ilab-health-stats
+
+2. Our Team Page GitHub Repo: https://github.com/ssandeed/ilab-team
+
+Feel free to explore the repository and contact us to understand more about the app! If you have any questions or feedback, please don't hesitate to reach out. Happy coding!
