@@ -1,6 +1,15 @@
 # MediChampAI - A Web-based Chatbot Application
 
-Welcome to our MediChampAI web application repository! This repository contains all the necessary files and code to run the application locally. Follow the instructions below to get started.
+Welcome to our MediChampAI web application repository! This repository contains all the necessary files and code to run the application locally. Follow the instructions below to get started. This is the main repository of Group-9 for the 36105 iLab: Capstone Project.
+
+# Team Members
+
+* Jierui Zhang - 24888012
+* Kiran Shanker Das - 24580348
+* Paiynthalir Samyappan Nallamuthu - 24715435
+* Sareem Sandeed - 24622829
+* Saumya Bhutani	- 14360820
+* Zeyuan Wang	- 14372534
 
 ## Installation
 
