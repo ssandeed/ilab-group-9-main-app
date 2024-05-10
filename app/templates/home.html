@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home </title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/home_style.css') }}">
+
+</head>
+<body>
+
+<!-- Starbackground -->
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+<!-- parallax text/java -->
+<div id="parallax">
+  <div class="layer" data-depth="0.6">
+  
+<!-- text -->
+
+      <!-- Display "Welcome to MediChampAI" at the top -->
+      <div class="some-space1">
+        <h1>Welcome to MediChampAI</h1>
+      </div>
+
+  <!-- Sub-heading and paragraph -->
+  <div class="some-space">
+    <h2>
+      <ul>
+        <li class="bullet1">A chatbot platform tailored for new doctors, nurses, and GPs to simulate cardiovascular medical scenarios.</li>
+        <li class="bullet2">The platform guides through interactive patient cases, allowing them to practice diagnosis and treatment planning within this specialized field.</li>
+        <li class="bullet3">Real-time feedback is seamlessly integrated into the chat interface, enhancing decision-making skills and reducing the risk of misdiagnoses.</li>
+        <li class="bullet4">Aiding healthcare professionals in adapting to new environments effectively within this specialty.</li>
+      </ul>
+    </h2>
+  </div>
+
+  
+  </div>
+  <div class="layer" data-depth="0.4">
+    <div id="particles-js"></div>
+  </div>
+
+<!-- Button -->
+
+<div class="buttons-container">
+    <div class="button">
+      <a href="/index" target="_blank">MediChampAI Platform</a>
+    </div>
+    <div class="button">
+      <a href="https://ilab-health-stats.streamlit.app" target="_blank">Australia Health Statistics</a>
+    </div>
+    <div class="button">
+      <a href="https://ilab-team.streamlit.app" target="_blank">Our Team</a>
+    </div>
+  </div>
+    
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

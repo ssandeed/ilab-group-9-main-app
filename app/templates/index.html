@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <!-- Your chatbot content goes here -->
+  <!DOCTYPE html>
+  <html lang="en" >
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8">
+  <title>MediChampAI| Home </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="icon" href="https://i.ibb.co/1qGG7V5/20830632741582956833-128.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+  <!-- partial:index.partial.html -->
+  <!DOCTYPE html>
+  <html>
+  <body>
+  <div class="app-container">
+  <div class="app-left">
+    <div class="app-left-header">
+      <div class="app-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <defs />
+          <path class="path-1" fill="#3eb798" d="M448 193.108h-32v80c0 44.176-35.824 80-80 80H192v32c0 35.344 28.656 64 64 64h96l69.76 58.08c6.784 5.648 16.88 4.736 22.528-2.048A16.035 16.035 0 00448 494.868v-45.76c35.344 0 64-28.656 64-64v-128c0-35.344-28.656-64-64-64z" opacity=".4" />
+          <path class="path-2" fill="#3eb798" d="M320 1.108H64c-35.344 0-64 28.656-64 64v192c0 35.344 28.656 64 64 64v61.28c0 8.832 7.168 16 16 16a16 16 0 0010.4-3.84l85.6-73.44h144c35.344 0 64-28.656 64-64v-192c0-35.344-28.656-64-64-64zm-201.44 182.56a22.555 22.555 0 01-4.8 4 35.515 35.515 0 01-5.44 3.04 42.555 42.555 0 01-6.08 1.76 28.204 28.204 0 01-6.24.64c-17.68 0-32-14.32-32-32-.336-17.664 13.712-32.272 31.376-32.608 2.304-.048 4.608.16 6.864.608a42.555 42.555 0 016.08 1.76c1.936.8 3.76 1.808 5.44 3.04a27.78 27.78 0 014.8 3.84 32.028 32.028 0 019.44 23.36 31.935 31.935 0 01-9.44 22.56zm96 0a31.935 31.935 0 01-22.56 9.44c-2.08.24-4.16.24-6.24 0a42.555 42.555 0 01-6.08-1.76 35.515 35.515 0 01-5.44-3.04 29.053 29.053 0 01-4.96-4 32.006 32.006 0 01-9.28-23.2 27.13 27.13 0 010-6.24 42.555 42.555 0 011.76-6.08c.8-1.936 1.808-3.76 3.04-5.44a37.305 37.305 0 013.84-4.96 37.305 37.305 0 014.96-3.84 25.881 25.881 0 015.44-3.04 42.017 42.017 0 016.72-2.4c17.328-3.456 34.176 7.808 37.632 25.136.448 2.256.656 4.56.608 6.864 0 8.448-3.328 16.56-9.28 22.56h-.16zm96 0a22.555 22.555 0 01-4.8 4 35.515 35.515 0 01-5.44 3.04 42.555 42.555 0 01-6.08 1.76 28.204 28.204 0 01-6.24.64c-17.68 0-32-14.32-32-32-.336-17.664 13.712-32.272 31.376-32.608 2.304-.048 4.608.16 6.864.608a42.555 42.555 0 016.08 1.76c1.936.8 3.76 1.808 5.44 3.04a27.78 27.78 0 014.8 3.84 32.028 32.028 0 019.44 23.36 31.935 31.935 0 01-9.44 22.56z" />
+        </svg>
+      </div>
+      <h1>MediChampAI </h1>
+    </div>
+    <div class="app-profile-box">
+      <div class="app-profile-box-name">
+          <div class="profile-content">
+              <img src="{{ url_for('static', filename='assets/med-assistant.png') }}" alt="profile"/>
+              <div class="profile-details" style="font-size: smaller; font-family: Helvetica;">
+                  <strong style="margin-bottom: 0px;">Carlos Jose,</strong> <!-- Added margin -->
+                  <span style="margin-bottom: 3px;" >A Patient Bot</span><br> <!-- Added margin -->
+                  <span style="margin-top: 8px; font-weight: normal;">Hi Doctor/Nurse! I'm Carlos and you are here to help me with my illness. I'm here at your clinic and have an appointment for 15 minutes.</span>
+                </div>
+          </div>
+      </div>
+  </div>
+  
+  
+    <p class="role-play-instructions" style="font-size: smaller; font-family: Helvetica;">    
+        To start the role-play choose a persona for Carlos by clicking on one of the coloured circles below. To find out details of each persona hover your mouse over each circle.
+  </p>
+      <div class="tooltip-container">
+      <div class="tooltip-circle" style="background-color: #c4c4c4;" data-tooltip="Analyst: Imaginative, innovative, curious, strong-willed"></div>
+      <div class="tooltip-circle" style="background-color: #a3a3a3;" data-tooltip="Diplomats: Idealistic, altruistic, inspiring, creative"></div>
+      <div class="tooltip-circle" style="background-color: #515151;" data-tooltip="Sentinels: Practical, dedicated, excellent manager, social"></div>
+      <div class="tooltip-circle" style="background-color: #000000;" data-tooltip="Explorers: Bold, flexible, entrepreneurial, spontaneous"></div>
+  </div>
+  
+    
+  
+  
+  
+    <div class="chat-list-wrapper">
+      <div class="chat-list-header">Real-time Feedback <span class="c-number">1</span>
+        <svg class="list-header-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="feather feather-chevron-up" viewBox="0 0 24 24">
+          <defs />
+          <path d="M18 15l-6-6-6 6" />
+        </svg>
+      </div>
+      <ul class="chat-list active" id="chatList">
+        <li class="chat-list-item active" id="respListItem1" style="font-family: Helvetica, Arial, sans-serif; font-size: small;">
+  
+        </li>
+        
+        <li class="chat-list-item" id="respListItem2">
+          
+        </li>
+      </ul>
+    </div>
+    
+    
+  </div>
+  <main class="app-main">
+    <div class="chat-wrapper"> 
+      <div class="msg left-msg">
+        <img class="msg-img" src={{ url_for('static', filename='assets/med-assistant.png') }} alt="profile-pic">
+        <div class="msg-bubble">
+          <div class="msg-text">
+            Hello Doctor, how are you? </div>
+          <span class="msg-info-timestamp" id="timestamp"></span>
+        </div>
+      </div>
+    
+
+
+    </div>
+    <div class="msger-inputarea">
+        <div class="input-wrapper">
+    
+        <input type="text" class="msger-input" id="textInput" placeholder="Enter your message here">
+        <button id="microphone-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22"height="22" viewBox="0 0 24 24" fill="none" stroke="#605d75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path id="microphone-icon" d="M12 2c-1.7 0-3 1.2-3 2.6v6.8c0 1.4 1.3 2.6 3 2.6s3-1.2 3-2.6V4.6C15 3.2 13.7 2 12 2z"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18.4v3.3M8 22h8"/></svg>
+        </button>
+        <script src="https://cdn.jsdelivr.net/npm/microsoft-cognitiveservices-speech-sdk/distrib/browser/microsoft.cognitiveservices.speech.sdk.bundle.js"></script>
+
+
+        <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+      </div>
+    
+      <button type="submit" class="msger-send-btn">Send</button>
+    </div>
+  </main>
+  <div class="app-right" style="height: 800px; overflow: auto;">
+    <div class="app-profile-box">
+      <div class="profile-details-right">
+          <img src="{{ url_for('static', filename='assets/user.png') }}" alt="profile" class="profile-image">
+          <div>
+              <p class="app-profile-box-title name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                  </svg>User: New Doctor/Nurse/GP
+              </p>
+              <!-- <p class="app-profile-box-title mail">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                      <polyline points="22,6 12,13 2,6" />
+                  </svg>marylou.flores@gmail.com
+              </p> -->
+              
+              <div style="display: inline-block;">
+                <h1 style="font-size: 15px; color: green; display: inline-block; margin-right: 10px;">Timer:</h1>
+                <div id="timer" style="font-size: 15px; color: green; display: inline-block;">15:00</div>
+            </div>
+          </div>
+      </div>
+      
+  </div>
+  
+    <div class="chat-list-header">
+    Quick Reference
+    <svg class="list-header-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="feather feather-chevron-up" viewBox="0 0 24 24">
+        <defs />
+        <path d="M18 15l-6-6-6 6" />
+    </svg>
+  </div>
+  <div class="iframe-container" style="height: 400;">
+    <iframe id="myIframe" src="https://cite-backend.azurewebsites.net/" width="320" height="400" frameborder="0"></iframe>
+
+
+
+
+  <script>
+    window.addEventListener('load', function() {
+        var iframe = document.getElementById('myIframe');
+        var fixedHeight = 400; // Set the fixed height for the iframe here
+
+
+        // Set the initial height of the iframe
+        iframe.style.height = fixedHeight + 'px';
+
+
+        // Disable iframe resizing
+        iframe.setAttribute('scrolling', 'no');
+
+
+        // Adjust the iframe height when its content is loaded
+        iframe.onload = function() {
+            iframe.style.height = fixedHeight + 'px';
+        };
+    });
+  </script>
+  <div class="chat-list-header" style=" margin-bottom: -100;">
+  Summary
+  <svg class="list-header-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="feather feather-chevron-up" viewBox="0 0 24 24">
+      <defs />
+      <path d="M18 15l-6-6-6 6" />
+  </svg>
+  </div>
+  </div>
+
+
+  <div class="app-profile-box" style="font-family: Helvetica, Arial, sans-serif; font-size: small; overflow: auto; margin-top: -5;">
+  
+    <div id="summaryPlaceholder"></div>
+    <!-- This block can be reused as many times as needed -->
+  </div>
+  
+
+
+    </div>
+  </div>
+          
+
+
+    
+  </body>
+  </html>
+  <!-- partial -->
+  <script src="{{ url_for('static', filename='query.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+  </body>
+  </html>
+
+
+
+
+</body>
+</html>
