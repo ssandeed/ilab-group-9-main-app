@@ -2,7 +2,7 @@
 
 Welcome to our MediChampAI web application repository! This repository contains all the necessary files and code to run the application locally. Follow the instructions below to get started. This is the main repository of Group-9 for the 36105 iLab: Capstone Project.
 
-# Team Members
+## Team Members
 
 * Jierui Zhang - 24888012
 * Kiran Shanker Das - 24580348
