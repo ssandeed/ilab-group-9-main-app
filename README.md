@@ -4,12 +4,10 @@ Welcome to our MediChampAI web application repository! This repository contains 
 
 ## Team Members
 
-* Jierui Zhang - 24888012
 * Kiran Shanker Das - 24580348
 * Paiynthalir Samyappan Nallamuthu - 24715435
 * Sareem Sandeed - 24622829
 * Saumya Bhutani	- 14360820
-* Zeyuan Wang	- 14372534
 
 ## Installation
 
